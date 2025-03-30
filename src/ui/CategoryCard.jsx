@@ -31,7 +31,7 @@ export default function CategoryCard() {
   return (
     <>
       {cardData.map((card) => (
-        <a href={`${card.link}`} key={card.id} className="w-64 h-80 border-2 border-tjrgrey rounded-xl bg-cover bg-center transition-all duration-300 hover:border-tjryellow hover:scale-105" style={{ backgroundImage: `${card.imagePath}` }}>
+        <a href={`${card.link}`} key={card.id} className="w-64 h-80 border-2 border-tjrpale rounded-xl bg-cover bg-center transition-all duration-300 hover:border-tjryellow hover:scale-105" style={{ backgroundImage: `${card.imagePath}` }}>
           <div className="relative w-full h-full flex items-end justify-between gap-5">
             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-between bg-tjrgrey/80 px-3 py-4 rounded-b-lg">
               <div className="">

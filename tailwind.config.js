@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         tjrgrey: "#131316",
+        tjrpale: "#1D1D22",
         tjryellow: "#FBBF24"
       },
     },

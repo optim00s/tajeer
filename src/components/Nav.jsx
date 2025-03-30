@@ -47,14 +47,14 @@ export default function Nav() {
                 </div>
               </div>
               <div className="flex items-center justify-around gap-10">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-8">
                   <div className="relative">
                     <input 
                       type="text" 
                       placeholder="Search products..."
-                      className="bg-zinc-800/60 px-8 py-1 rounded-lg outline-none text-sm w-80"
+                      className="bg-zinc-800/60 px-8 py-2 rounded-lg outline-none text-sm w-80"
                     />
-                    <Search className="absolute top-1/4 left-2" size={14}  />
+                    <Search className="absolute top-1/3 left-2" size={14}  />
                   </div>
                   <div>
                     <a href="">

@@ -21,7 +21,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="flex flex-col min-h-[300px] items-center justify-between bg-black/20 py-5 px-10 gap-5">
+      <footer className="flex flex-col min-h-[300px] items-center justify-between bg-black/20 py-5 px-10 gap-5 rounded-t-3xl">
         <div className="w-full flex flex-col md:flex-row gap-8 md:gap-60">
           <div className="tracking-wider font-bold text-lg">
             TAJEER
@@ -33,7 +33,7 @@ export default function Footer() {
                   <div className="font-bold">{footer.title}</div>
                   <ul className="flex flex-col gap-2">
                     {footer.subtitle.map((item, index) => (
-                      <a href="/" className="transition-all duration-300 hover:text-tjryellow" key={index}>{item}</a>
+                      <a href="/" className="transition-all duration-300 text-white/60 hover:text-white/90" key={index}>{item}</a>
                     ))}
                   </ul>
                 </div>

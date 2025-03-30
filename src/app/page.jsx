@@ -4,15 +4,14 @@ import CategoryCard from "@/ui/CategoryCard";
 import AboutSection from "@/components/Aboutsection";
 import InfoSection from "@/components/InfoSection";
 import Footer from "@/components/Footer";
-import { BadgePercent } from "lucide-react";
 
 export default function Home() {
   return (
     <div>
       <Nav />
-      <main className="bg-tjrgrey">
+      <main className="bg-tjrgrey flex flex-col gap-8 mb-10">
         <Slider/>
-        <div className="flex flex-col gap-5 py-10">
+        <div className="flex flex-col gap-5 py-8 bg-tjrpale mx-3 rounded-3xl">
           <div className="flex flex-col gap-6">
             <div className="flex items-center justify-between px-10">
               <div className="text-xl">

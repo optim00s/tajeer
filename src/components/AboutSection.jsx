@@ -23,7 +23,7 @@ export default function AboutSection() {
 
   return (
     <>
-      <div className="flex flex-col gap-12 px-8 py-6 mb-10">
+      <div className="flex flex-col gap-12 px-8 py-6 bg-tjrpale mx-3 rounded-3xl">
 		{aboutData.map((about) => (
 			<div key={about.id} className={`flex flex-col ${about.id % 2 !== 0 ? `md:flex-row-reverse` : `md:flex-row`}  justify-between items-center gap-5`}>
 				<div className="flex flex-col w-full md:w-1/2 gap-2">

@@ -49,14 +49,14 @@ export default function Slider() {
   }, [autoPlay, slideSet.length]);
 
   return (
-    <div className="relative overflow-hidden min-h-screen px-3">
-      <button className="hidden md:block absolute top-1/2 left-3 z-50" onClick={() => {
+    <div className="relative overflow-hidden min-h-screen mx-3 mt-20 rounded-3xl">
+      <button className="hidden md:block absolute top-1/2 left-6 z-30" onClick={() => {
         const newIndex = currentSlide === 0 ? slideSet.length - 1 : currentSlide - 1;
         handleSlideChoose(newIndex);
       }}>
         <ChevronLeft size={32}/>
       </button>
-      <button className="hidden md:block absolute top-1/2 right-3 z-50" onClick={() => {
+      <button className="hidden md:block absolute top-1/2 right-6 z-30" onClick={() => {
         const newIndex = currentSlide === slideSet.length - 1 ? 0 : currentSlide + 1;
         handleSlideChoose(newIndex);
       }}>
