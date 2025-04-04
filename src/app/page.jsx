@@ -1,7 +1,7 @@
 import Nav from "@/components/Nav";
 import Slider from "@/components/Slider";
 import CategoryCard from "@/ui/CategoryCard";
-import AboutSection from "@/components/Aboutsection";
+import AboutSection from "@/components/AboutSection";
 import InfoSection from "@/components/InfoSection";
 import Footer from "@/components/Footer";
 
